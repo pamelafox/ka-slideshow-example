@@ -22,7 +22,7 @@ var slideShow = function(container) {
         if (this.curImage >= this.images.length) {
             this.curImage = 0;
         }
-        window.setTimeout(nextSlide.bind(this), 3000);
+        window.setTimeout(nextSlide.bind(this), 2000);
     };
     
     nextSlide.call(this);
